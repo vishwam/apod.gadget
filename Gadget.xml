@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <gadget>
-	<name>APoD</name>
-	<version>1.0.0.0</version>
-	<description>Astronomy Picture of the Day</description>
+	<name>APOD</name>
+	<version>1.1.0.0</version>
+	<description>
+		Astronomy Picture of the Day
+		Discover the cosmos!
+		http://apod.nasa.gov/
+	</description>
+	<copyright>© 2010 (MIT License)</copyright>
 	<author name="Vishwam Subramanyam">
-		<info url="http://v.4261.in/projects/APoD_Gadget" />
+		<info url="http://v.4261.in/projects/apod-gadget" text="v.4261.in" />
+		<logo src="images/logo.png" />
 	</author>
+	<icons>
+		<icon height="256" width="256" src="images/icon 256.png" />
+	</icons>
 	<hosts>
 		<host name="sidebar">
 			<base type="HTML" apiVersion="1.0.0" src="apod.html" />
