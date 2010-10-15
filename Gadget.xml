@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>APoD</name>
+	<version>1.0.0.0</version>
+	<description>Astronomy Picture of the Day</description>
+	<author name="Vishwam Subramanyam">
+		<info url="http://v.4261.in/projects/APoD_Gadget" />
+	</author>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="apod.html" />
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="1.0" />
+		</host>
+	</hosts>
+</gadget>
